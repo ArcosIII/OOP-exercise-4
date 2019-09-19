@@ -24,6 +24,15 @@ public class Exercise4 {
         System.out.println(C2.toString());
         System.out.println(R.toString());
         System.out.println(R2.toString());
+        System.out.printf("C-Circumference: %.02f\n", C.getCircumference());
+        System.out.printf("C-Area: %.02f\n", C.getArea());
+        System.out.printf("C2-Circumference: %.02f\n", C2.getCircumference());
+        System.out.printf("C2-Area: %.02f\n", C2.getArea());
+        System.out.printf("R-Perimeter: %.02f\n", R.getPerimeter());
+        System.out.printf("R-Area: %.02f\n", R.getArea());
+        System.out.printf("R2-Perimeter: %.02f\n", R2.getPerimeter());
+        System.out.printf("R2-Area: %.02f\n", R2.getArea());
+        
     }
     
 }
